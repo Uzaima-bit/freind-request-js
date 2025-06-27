@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: violet;
+}
+.card{
+    height: 410px;
+    width: 300px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.img1{
+    height: 200px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.name{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.friends{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-con{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+    
+}
+.han{
+    
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.nah{
+    
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: burlywood;
+}
